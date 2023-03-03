@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate en nuestra plataforma</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body class="body2">
+
+    <form method="post" action="register.php">
+        <section class="form-register">
+            <h4>Tienda de Ropa KAULT</h4>
+            <h3>Registrate en nuestra plataforma</h3>
+
+        <input name="name" class="inputs" type="text" placeholder="Ingrese su nombre completo." pattern="[a-z-A-Z- ]{8,70}" title="Ingrese solo letras, minimo 8 y maximo 30 caracteres." required>
+        <input name="email" class="inputs" type="email" placeholder="Ingrese su correo electronico." title="Ingrese un correo electronico valido" required>
+        <input name="fecha" class="inputs" type="date" placeholder="Ingrese su fecha de nacimiento (dia/mes/año)." pattern="[0-9/0-9/0-3000]{1,30}" title="Ingrese su fecha de nacimiento." required>
+        <input name="num" class="inputs" type="num" placeholder="Ingrese su numero telefonico." pattern="[0-9]{10}" title="Ingrese un numero de telefono valido" required>
+        <input name="password" class="inputs" type="password" placeholder="Ingrese su contraseña." pattern="[a-z-A-Z-1-9]{5,8}" title="Ingrese minimo 8 caracteres." required>
+
+        <input class="boton3" type="submit" value="Registrarse" name="register">
+        <br>
+        <br>
+        <span>¿Ya tienes una cuenta? Ingresa <a href="login.html" class="boton2">aquí.</a></span>
+        <br>
+        <br>
+    
+        <a href="index.html" class="boton2">Volver</a>
+
+    </section>
+</form>
+
+    
+</body>
+</html>
